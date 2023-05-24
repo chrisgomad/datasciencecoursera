@@ -1,8 +1,16 @@
 ---
-title: "Hello World"
+title: "HelloWorld"
 author: "Me!"
-date: "5/23/23"
-output: word_document
+date: "`r Sys.Date()`"
+output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## This is a markdown file
+
+attempt two 
+
+
